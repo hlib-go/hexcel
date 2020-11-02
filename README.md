@@ -4,9 +4,6 @@
 
 Excel 表格
 
-#### 使用
+#### 功能
 
-1. 渲染Excel模板文件
-```go
-hxlsx.Template(tpl []byte, sheet string, kv map[string]interface{}) (fileBytes []byte, err error) 
-```
+1. 渲染Excel模板文件 `fileBytes,err:=hxlsx.Render(tpl,sheet,kv) `
