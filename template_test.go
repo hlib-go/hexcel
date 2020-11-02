@@ -1,4 +1,4 @@
-package hxlsx
+package hexcel
 
 import (
 	"io/ioutil"
